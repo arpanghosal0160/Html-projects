@@ -21,11 +21,20 @@
             /* same operation can be done with column */
 
             flex-direction: row;
-            /* flex-wrap: wrap-reverse; */
-            /* wraps text and elements in reverse direction */
-            justify-content: center;
+            height: 1200px;
+            /* flex-wrap: wrap; */
             justify-content: start;
-            justify-content: space-between;
+            align-items: start;
+            align-content: start;
+            /* wraps text and elements in reverse direction */
+            /* justify-content: center;
+            justify-content: start;
+            justify-content: space-between; 
+            /* no space left in the extremw right and left side */
+            /* justify-content: space-around; */
+            /* space is left around each side */ 
+            /* justify-content: center;
+            align-items: center; */
 
         }
         .box{
@@ -36,9 +45,13 @@
         }
         #box1{
             background-color: aqua;
+            flex-shrink: 6;
+            /* allows box 1 to shrink 6 times faster */
         }
         #box2{
             background-color: blue;
+            flex-grow: 77;
+            /* allows the box to grow fastter */
         }
         #box3{
             background-color: brown;
@@ -50,10 +63,10 @@
 </head>
 <body>
     <div class="container">
-        <div class="box"id="box1"></div>
-        <div class="box"id="box2"></div>
-        <div class="box"id="box3"></div>
-        <div class="box"id="box4"></div>
+        <div class="box"id="box1">box1</div>
+        <div class="box"id="box2">box2</div>
+        <div class="box"id="box3">box3</div>
+        <div class="box"id="box4">box4</div>
     </div>
 </body>
 </html>
