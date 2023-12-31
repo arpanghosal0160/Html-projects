@@ -1,0 +1,41 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: all 3s linear ;
+}
+
+.box:hover{
+    transform: rotate(360deg);
+    /* used to rotate the box */
+    transform: scale(2);
+    /* used to increase or decrease the size */
+    transform: skew(45deg);
+    /* used to tilt the box */
+    transform: translate(500px, 500px);
+}
+
+
+
+p{
+    font-size: 30px;
+}

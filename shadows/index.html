@@ -26,15 +26,21 @@
             /* blur radius - x y blur rad */
             box-shadow: 15px 20px 50px 2px brown;
             /* 4th is spread radius */
-
+            box-shadow: inset 10px 15px brown;
+            /* shadow andar ki taraf aayegi */
+            box-shadow: 10px 15px red , -15px -8px green;
         }
+        #head1{
+            text-shadow: 4px 3px 5px yellow;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
         <div class="box">
             <img src="logo.png" alt="logo">
-            <h2>Welcome to Codehelp</h2>
+            <h2 id="head1">Welcome to Codehelp</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deserunt similique eius dicta libero magnam distinctio maiores. Quia excepturi eligendi eius inventore alias vel veritatis?</p>
             
         </div>
