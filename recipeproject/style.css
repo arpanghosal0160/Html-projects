@@ -26,7 +26,10 @@
 
 .navcontainer{
     width: 100vw;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
+    background-color: #0093E9;
+    background-image: linear-gradient(225deg, #0093E9 0%, #80D0C7 100%);
+
     min-height: 80px;
     display: flex;
     justify-content: center;
@@ -46,6 +49,15 @@
 }
 
 a{
-    text-decoration: none;
-    /* removes the underline from the links */
+      text-decoration: none;
+        /* removes the underline from the links */
 }
+
+.navitems{
+    display: flex;
+    gap: 70px;
+    color: azure;
+}
+
+background-color: #0093E9;
+background-image: linear-gradient(225deg, #0093E9 0%, #80D0C7 100%);
